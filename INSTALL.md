@@ -37,7 +37,7 @@ old build first. You often need to rebuild detectron2 after reinstalling PyTorch
 # for CUDA 10.1:
 python -m pip install detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu101/index.html
 ```
-You can replace cu101 with "cu{100,92}" or "cpu".
+You can replace cu101 with "cu{102,100,92}" or "cpu" for CUDA 10.2, 10.0, 9.2 or no CUDA.
 
 Note that:
 1. Such installation has to be used with the latest official PyTorch release (currently 1.4).
